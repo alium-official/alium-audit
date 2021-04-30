@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
-import { Token, TokenAmount, WETH } from '@aliumswap/sdk'
-import { Button, Text } from '@aliumswap/uikit'
+import { Token, TokenAmount, WETH } from '@alium-official/sdk'
+import { Button, Text } from '@alium-official/uikit'
 
 import { AutoColumn } from '../Column'
 import { RowBetween, RowFixed } from '../Row'

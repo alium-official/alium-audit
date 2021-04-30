@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@aliumswap/sdk'
+import { ChainId, Token } from '@alium-official/sdk'
 import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
@@ -33,6 +33,7 @@ export type TokenAddressMap = Readonly<{ [chainId in ChainId]: Readonly<{ [token
 /**
  * An empty result, useful as a default.
  */
+// @ts-ignore
 const EMPTY_LIST: TokenAddressMap = {
   [ChainId.MAINNET]: {},
   [ChainId.BSCTESTNET]: {}

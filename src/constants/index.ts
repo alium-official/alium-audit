@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@aliumswap/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@alium-official/sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
@@ -29,6 +29,7 @@ export const TESTUSDT = new Token(ChainId.BSCTESTNET, '0x1138ebb3101f557b28326a2
 export const TESTDAI = new Token(ChainId.BSCTESTNET, '0x618549d304828c77dcb590d02e3641b03e6f4176', 18, 'DAI', 'DAI Test');
 export const TESTWETH = new Token(ChainId.BSCTESTNET, '0x12BE304f9b7a3B624213b5DBaC1822F75E005DAF', 18, 'WETH', 'WETH Test');
 
+// @ts-ignore
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   // [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]]

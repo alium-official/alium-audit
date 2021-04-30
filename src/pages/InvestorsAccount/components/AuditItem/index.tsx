@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, LinkExternal, Text } from '@aliumswap/uikit'
+import { Flex, LinkExternal, Text } from '@alium-official/uikit'
 import { BSCScanIcon, GitHubIcon } from '../../../../assets/Icons'
 
 const StyledContainer = styled.div`

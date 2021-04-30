@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useTranslation } from 'react-i18next'
-import { Flex, Heading, Text, ColoredCopyIcon } from '@aliumswap/uikit'
+import { Flex, Heading, Text, ColoredCopyIcon } from '@alium-official/uikit'
 import { AppState } from 'state/index'
 import { PopupList } from 'state/application/reducer'
 import { CardType } from 'pages/Home/constants/cards'

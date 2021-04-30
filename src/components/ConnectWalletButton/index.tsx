@@ -1,7 +1,7 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core'
-// import { Button, ButtonProps, ConnectorId, useWalletModal } from '@aliumswap/uikit'
-import { Button, ButtonProps, useWalletModal } from '@aliumswap/uikit'
+// import { Button, ButtonProps, ConnectorId, useWalletModal } from '@alium-official/uikit'
+import { Button, ButtonProps, useWalletModal } from '@alium-official/uikit'
 
 import { injected, walletconnect } from 'connectors'
 import { useTranslation } from 'react-i18next'

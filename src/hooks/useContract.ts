@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import { ChainId, WETH } from '@aliumswap/sdk'
+import { ChainId, WETH } from '@alium-official/sdk'
 import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import { useMemo } from 'react'
 import { VAMPIRE_ABI, VAMPIRE_ADDRESS } from 'constants/abis/vampire'

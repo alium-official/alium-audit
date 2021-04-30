@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text } from '@aliumswap/uikit'
+import { Text } from '@alium-official/uikit'
 import AppBody from '../AppBody'
 import AuditItem from './components/AuditItem'
 import audits from './constants/audits'

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem, Heading, Flex } from '@aliumswap/uikit'
+import { ButtonMenu, ButtonMenuItem, Heading, Flex } from '@alium-official/uikit'
 
 import TranslatedText from '../TranslatedText'
 

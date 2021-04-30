@@ -1,11 +1,11 @@
 import React from 'react'
-import { Menu as UikitMenu, MenuEntry } from '@aliumswap/uikit'
+import { Menu as UikitMenu, MenuEntry } from '@alium-official/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useTranslation } from 'react-i18next'
 import useTheme from 'hooks/useTheme'
 import useAuth from 'hooks/useAuth'
 import { useCurrencyBalance } from 'state/wallet/hooks'
-import { ETHER } from '@aliumswap/sdk'
+import { ETHER } from '@alium-official/sdk'
 
 const Menu: React.FC<{ loginBlockVisible?: boolean }> = ({ loginBlockVisible, ...props }) => {
   const { t } = useTranslation()

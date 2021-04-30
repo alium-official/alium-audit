@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@aliumswap/sdk'
+import { currencyEquals, Trade } from '@alium-official/sdk'
 import React, { useCallback, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import TransactionConfirmationModal, {

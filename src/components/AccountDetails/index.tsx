@@ -1,7 +1,7 @@
 import React, { useCallback, useContext } from 'react'
 import { useDispatch } from 'react-redux'
 import styled, { ThemeContext } from 'styled-components'
-import { Button } from '@aliumswap/uikit'
+import { Button } from '@alium-official/uikit'
 import { useTranslation } from 'react-i18next'
 import { ExternalLink as LinkIcon } from 'react-feather'
 import { useActiveWeb3React } from '../../hooks'

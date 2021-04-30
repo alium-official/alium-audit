@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
-import { Text, Spinner } from '@aliumswap/uikit'
+import { Text, Spinner } from '@alium-official/uikit'
 import { AutoColumn } from '../Column'
 import Circle from '../../assets/images/blue-loader.svg'
 import { Wrapper, Section, ConfirmedIcon, ContentHeader } from './helpers'

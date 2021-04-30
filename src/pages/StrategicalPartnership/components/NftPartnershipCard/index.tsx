@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import { BigNumber } from '@ethersproject/bignumber'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
-import { Text, Flex, ArrowDropDownIcon, ArrowDropUpIcon } from '@aliumswap/uikit'
+import { Text, Flex, ArrowDropDownIcon, ArrowDropUpIcon } from '@alium-official/uikit'
 import cardList, { CardType } from '../../constants/cards'
 import currencies from '../../constants/currencies'
 

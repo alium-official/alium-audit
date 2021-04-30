@@ -1,4 +1,4 @@
-import { TokenAmount, Pair, Currency } from '@aliumswap/sdk'
+import { TokenAmount, Pair, Currency } from '@alium-official/sdk'
 import { useMemo } from 'react'
 import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import { Interface } from '@ethersproject/abi'

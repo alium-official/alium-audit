@@ -1,6 +1,6 @@
-import { Currency, ETHER, Token } from '@aliumswap/sdk'
+import { Currency, ETHER, Token } from '@alium-official/sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
-import { Text, CloseIcon } from '@aliumswap/uikit'
+import { Text, CloseIcon } from '@alium-official/uikit'
 
 import { useTranslation } from 'react-i18next'
 import { FixedSizeList } from 'react-window'

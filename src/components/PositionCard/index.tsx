@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { JSBI, Pair, Percent } from '@aliumswap/sdk'
-import { Button, Card as UIKitCard, CardBody, Text } from '@aliumswap/uikit'
+import { JSBI, Pair, Percent } from '@alium-official/sdk'
+import { Button, Card as UIKitCard, CardBody, Text } from '@alium-official/uikit'
 import { useTranslation } from 'react-i18next'
 import { darken } from 'polished'
 import { ChevronDown, ChevronUp } from 'react-feather'

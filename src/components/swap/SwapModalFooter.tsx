@@ -1,6 +1,6 @@
-import { Trade, TradeType } from '@aliumswap/sdk'
+import { Trade, TradeType } from '@alium-official/sdk'
 import React, { useMemo, useState } from 'react'
-import { Text , Button } from '@aliumswap/uikit'
+import { Text , Button } from '@alium-official/uikit'
 import { useTranslation } from 'react-i18next'
 import { Repeat } from 'react-feather'
 

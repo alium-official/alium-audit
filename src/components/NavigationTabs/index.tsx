@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ButtonMenu, ButtonMenuItem } from '@aliumswap/uikit'
+import { ButtonMenu, ButtonMenuItem } from '@alium-official/uikit'
 import { useTranslation } from 'react-i18next'
 import { darken } from 'polished'
 import { NavLink, Link as HistoryLink } from 'react-router-dom'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal } from '@aliumswap/uikit'
+import { Modal } from '@alium-official/uikit'
 
 import SlippageToleranceSetting from './SlippageToleranceSetting'
 import TransactionDeadlineSetting from './TransactionDeadlineSetting'

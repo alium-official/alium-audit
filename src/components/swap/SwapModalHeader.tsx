@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
-import { Trade, TradeType } from '@aliumswap/sdk'
-import { Button, Text } from '@aliumswap/uikit'
+import { Trade, TradeType } from '@alium-official/sdk'
+import { Button, Text } from '@alium-official/uikit'
 
 import { ArrowDown, AlertTriangle } from 'react-feather'
 import { useTranslation } from 'react-i18next'

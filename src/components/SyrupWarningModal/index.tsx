@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
-import { Button, Text } from '@aliumswap/uikit'
+import { Button, Text } from '@alium-official/uikit'
 
 import { AlertTriangle } from 'react-feather'
 import { TYPE } from '../Shared'

@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo } from 'react'
 import { diffTokenLists, TokenList } from '@uniswap/token-lists'
-import { Button, Text } from '@aliumswap/uikit'
+import { Button, Text } from '@alium-official/uikit'
 import { useTranslation } from 'react-i18next'
 import { useDispatch } from 'react-redux'
 import { AppDispatch } from '../../state'

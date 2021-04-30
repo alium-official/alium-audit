@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@aliumswap/sdk'
+import { Currency, ETHER, Token } from '@alium-official/sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

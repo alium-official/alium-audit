@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { stringify } from 'qs'
 import { useLocation } from 'react-router'
-import { Text } from '@aliumswap/uikit'
+import { Text } from '@alium-official/uikit'
 import { useTranslation } from 'react-i18next'
 import useParsedQueryString from '../../hooks/useParsedQueryString'
 import { DEFAULT_VERSION, Version } from '../../hooks/useToggledVersion'
